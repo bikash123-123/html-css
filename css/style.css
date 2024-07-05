@@ -1,0 +1,204 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+nav{
+    background-color: blueviolet; 
+}
+.nav-container{
+    width: 80%;
+    display: flex;
+}
+.menu{
+    padding: 18px 0;
+}
+.menu a{
+    color: whitesmoke;
+    display: inline-block;
+    padding: 0 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: goldenrod;
+    text-decoration: underline;
+}
+#top{
+    height: 450px;
+    display: flex;
+    padding: 20px 0;
+}
+.top_box{
+    width: 22%;
+    background-color: white;
+    height: 450px;
+    position: relative;
+}
+.top_box img{
+    width: 100%;
+    height: 450px;
+}
+.top_box .caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    opacity: 0.6;
+}
+.tag{
+    background-color: blueviolet;
+    color: antiquewhite;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.caption h2 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: azure;
+    padding: 15px 0;
+    display: inline-block;
+}
+.date{
+    color:antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16.5px;
+}
+.caption h2 a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+#newsletter{
+    background-color: blue;
+    background-image: url(../images/123.webp);
+    padding: 40px 0;
+}
+.container{
+    width: 80%;
+    display: flex;
+}
+.info{
+    width: 40%;
+}
+.info h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: antiquewhite;
+}
+.info span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #f1f1f1;
+    font-style: italic;
+}
+.newsletter form{
+    width: 50%;
+}
+.in{
+    border-color: transparent;
+    width: 300px;
+    height: 52px;
+    padding: 0 34px;
+    padding-left: 40px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn{
+    background-color: #0e5dae;
+    border-color: transparent;
+    color: #f1f1f1;
+    font-weight: 700;
+    cursor: pointer;
+    height: 55px;
+    width: 100px;
+}
+footer{
+    background-color: #03a9f4;
+    padding: 40px 0;
+}
+.footer_box{
+    width: 20%;
+}
+.footer_box img{
+    width: 80%;
+}
+.footer_box h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: antiquewhite;
+    border-bottom: 2px solid #0e5dae;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.footer_menu{
+    padding-top: 10px;
+}
+.footer_menu a{
+    color: #dfe1e2;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer_menu a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+#contact{
+    padding: 50px 0;
+}
+#contact .in,#contact textarea{
+    border: 1px solid #f1f1f1;
+    width: 100%;
+    display: block;
+}
+#contact h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color-scheme: blue;
+    border-bottom: 2px solid #0e5dae;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+#contact{
+    padding: 5px 0;
+}
+#contact label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #03a9f4;
+    padding-bottom: 5px;
+}
+#about{
+    padding: 50px;
+}
+.acontainer{
+    width: 60%;
+}
+#about  h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color-scheme: blue;
+    border-bottom: 2px solid #0e5dae;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+#about iframe{
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding: 20px 0;
+}
+#about p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #0e5dae;
+    line-height: 22px;
+}
